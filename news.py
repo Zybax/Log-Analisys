@@ -1,3 +1,4 @@
+#!/usr/local/bin/python2
 import psycopg2
 
 query1 = """select articles.slug, count(*) as views from log join articles
